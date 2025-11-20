@@ -19,7 +19,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Service
 public class AIServiceClient {
 
-    private static final String FASTAPI_URL = "http://localhost:8000/mood-analysis";
+    // For local development:
+    // private static final String FASTAPI_URL = "http://localhost:8000/mood-analysis";
+    // For production:
+    private static final String FASTAPI_URL = "https://lunaris-fastapi-backend.onrender.com/mood-analysis";
 
     public Map<String, String> getMoodFromImage(byte[] imageBytes, String origFilename) {
         Map<String, String> result = new HashMap<>();

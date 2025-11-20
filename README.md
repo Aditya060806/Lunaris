@@ -1,9 +1,4 @@
-# 🎧 Moodify
-
-## 🚀 Live Demo
-
-### 🌐 **[https://moodify-aat.vercel.app/](https://moodify-aat.vercel.app/)**
-
+# 🎧 Lunaris
 ---
 
 > An intelligent mood-based music recommendation system that analyzes facial expressions using AI and recommends personalized songs matching your emotional state.
